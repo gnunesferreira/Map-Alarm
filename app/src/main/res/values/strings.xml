@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Map Alarm</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_alarms_list">AlarmsList</string>
+</resources>

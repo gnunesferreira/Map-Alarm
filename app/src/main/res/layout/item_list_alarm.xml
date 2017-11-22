@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+
+        <TextView
+            android:id="@+id/itemListAlarmNoteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="3"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:text="1231231231231241 1231241 124 1234 22345 1234 124512 512345123451234 123  51  124512312 2 123412  12 123 12 1 12 "/>
+
+</LinearLayout>
