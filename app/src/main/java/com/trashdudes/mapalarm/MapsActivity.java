@@ -30,7 +30,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.List;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, SelectAlarmCallback {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private final int REQ_PERMISSION = 999;
 
@@ -55,9 +55,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onResume() {
         super.onResume();
-
-        SelectAlarmsAsyncTask alarmsAsyncTask = new SelectAlarmsAsyncTask(this);
-        alarmsAsyncTask.execute();
     }
 
     @Override
@@ -157,18 +154,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 mMap.addCircle(circleOptions);
                 mMap.addMarker(markerOptions);
-            }
-        }
-    }
-
-    @Override
-    public void didGetItens(List<AlarmModel> alarmModels) {
-        this.alarmModels = alarmModels;
-
-        if (mMap != null) {
-            mMap.clear();
-            if (this.mMap != null) {
-                this.loadAlarmItems();
             }
         }
     }

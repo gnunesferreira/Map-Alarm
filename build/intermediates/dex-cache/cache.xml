@@ -12,38 +12,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/guilhermen/Desktop/ft/6semestre/Android/MapAlarm2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="34f6eb7836dc68e0e9b14c6993a4e197bfcebb78">
-        <dex dex="/Users/guilhermen/Desktop/ft/6semestre/Android/MapAlarm2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e57dbad7baf1073b77f3361ce62fd247dd2ca599/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/guilhermen/.android/build-cache/86c1634cc8749f6227bc1d9a6252673c4d04d18b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
-        <dex dex="/Users/guilhermen/Desktop/ft/6semestre/Android/MapAlarm2/app/build/intermediates/pre-dexed/debug/classes_ff0d7cbccfb5c9cb168618a037ce424c32a36a48.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/guilhermen/Desktop/ft/6semestre/Android/MapAlarm2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/guilhermen/Desktop/ft/6semestre/Android/MapAlarm2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d2fcf154c522c7fdcfc0570171fe084d8caa5221/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/guilhermen/DEV/MapAlarm/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="2950154d81a027f3d873ec3cb6410e0546f7c34b">
+        sha1="bb49d683119bc9b25cd25fdb13f0b16ca816b4da">
         <dex dex="/Users/guilhermen/DEV/MapAlarm/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_be104ed474895ce65872f83cf0d50cb08a095e52/classes.dex" />
     </item>
 

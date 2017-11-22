@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class AlarmsListActivity extends AppCompatActivity implements SelectAlarmCallback {
+public class AlarmsListActivity extends AppCompatActivity {
 
     private ListView alarmsListView;
     private ProgressBar progressBar;
@@ -85,8 +85,6 @@ public class AlarmsListActivity extends AppCompatActivity implements SelectAlarm
 
     private void getServerAlarms() {
         this.progressBar.setVisibility(View.VISIBLE);
-        SelectAlarmsAsyncTask selectAlarmsAsyncTask = new SelectAlarmsAsyncTask(this);
-        selectAlarmsAsyncTask.execute();
     }
 
     private void getLocalAlarms() {
@@ -133,11 +131,4 @@ public class AlarmsListActivity extends AppCompatActivity implements SelectAlarm
         }
     }
 
-    @Override
-    public void didGetItens(List<AlarmModel> alarmModels) {
-        this.progressBar.setVisibility(View.GONE);
-        this.alarms = alarmModels;
-        AlarmsAdapter adapter = new AlarmsAdapter(this, alarmModels);
-        this.alarmsListView.setAdapter(adapter);
-    }
 }
